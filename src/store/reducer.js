@@ -9,19 +9,19 @@ import {
             question: 'Question text 1',
             answers: [
                 {
-                   a: 'Option A',
+                   answer: 'Option A',
                    correct: false
                 },
                 {
-                    b: 'Option B',
+                    answer: 'Option B',
                     correct: false
                 },
                 {
-                    c: 'Option C',
+                    answer: 'Option C',
                     correct: false
                 },
                 {
-                    d: 'Option D',
+                    answer: 'Option D',
                     correct: true 
                 }
             ]
@@ -31,21 +31,21 @@ import {
             question: 'Question text 2',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -53,21 +53,21 @@ import {
             question: 'Question text 3',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -75,21 +75,21 @@ import {
             question: 'Question text 4',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -97,21 +97,21 @@ import {
             question: 'Question text 5',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -119,21 +119,21 @@ import {
             question: 'Question text 6',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -141,21 +141,21 @@ import {
             question: 'Question text 7',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -163,21 +163,21 @@ import {
             question: 'Question text 8',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -185,21 +185,21 @@ import {
             question: 'Question text 9',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         },
@@ -207,21 +207,21 @@ import {
             question: 'Question text 10',
             answers: [
                 {
-                   a: 'Option A',
-                   correct: false
-                },
-                {
-                    b: 'Option B',
+                    answer: 'Option A',
                     correct: false
-                },
-                {
-                    c: 'Option C',
-                    correct: false
-                },
-                {
-                    d: 'Option D',
-                    correct: true 
-                }
+                 },
+                 {
+                     answer: 'Option B',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option C',
+                     correct: false
+                 },
+                 {
+                     answer: 'Option D',
+                     correct: true 
+                 }
             ]
 
         }
@@ -239,7 +239,7 @@ import {
       case ADD_QUESTION: 
         return {
           ...state,
-          questions: [...state.questions, action.payload] 
+          questions: [...state.questions, action.payloaanswer] 
         }
       default:
         return state;
