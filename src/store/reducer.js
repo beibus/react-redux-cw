@@ -234,7 +234,6 @@ import {
         case GET_QUESTIONS: 
         return {
           ...state,
-          questions
         }
 
       case ADD_QUESTION: 
