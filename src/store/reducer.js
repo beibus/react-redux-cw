@@ -7,10 +7,11 @@ import {
     questions: [
         {id: 1,
             question: 'Question text 1',
+            multiple: true,
             answers: [
                 {
                    answer: 'Option A',
-                   correct: false
+                   correct: true
                 },
                 {
                     answer: 'Option B',
@@ -29,6 +30,8 @@ import {
         },
         {id: 2,
             question: 'Question text 2',
+            multiple: true,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -51,6 +54,8 @@ import {
         },
         {id: 3,
             question: 'Question text 3',
+            multiple: true,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -73,6 +78,8 @@ import {
         },
         {id: 4,
             question: 'Question text 4',
+            multiple: true,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -95,6 +102,8 @@ import {
         },
         {id: 5,
             question: 'Question text 5',
+            multiple: true,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -117,6 +126,8 @@ import {
         },
         {id: 6,
             question: 'Question text 6',
+            multiple: false,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -139,6 +150,8 @@ import {
         },
         {id: 7,
             question: 'Question text 7',
+            multiple: false,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -161,6 +174,8 @@ import {
         },
         {id: 8,
             question: 'Question text 8',
+            multiple: false,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -183,6 +198,8 @@ import {
         },
         {id: 9,
             question: 'Question text 9',
+            multiple: true,
+
             answers: [
                 {
                     answer: 'Option A',
@@ -205,6 +222,8 @@ import {
         },
         {id: 10,
             question: 'Question text 10',
+            multiple: false,
+
             answers: [
                 {
                     answer: 'Option A',
