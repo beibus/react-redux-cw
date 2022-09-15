@@ -6,239 +6,239 @@ import {
   const initialState = {
     questions: [
         {id: 1,
-            question: 'Question text 1',
+            question: 'Какое прозвище футбольного клуба "Ливерпуль"?',
             multiple: true,
             answers: [
                 {
-                   answer: 'Option A',
+                   answer: 'Мерсисайдцы',
                    correct: true
                 },
                 {
-                    answer: 'Option B',
+                    answer: 'Аристократы',
                     correct: false
                 },
                 {
-                    answer: 'Option C',
+                    answer: 'Драконы',
                     correct: false
                 },
                 {
-                    answer: 'Option D',
+                    answer: 'Дрозды',
                     correct: true 
                 }
             ]
 
         },
         {id: 2,
-            question: 'Question text 2',
+            question: 'Какое прозвище футбольного клуба"Пари-Сен-Жермен"?',
             multiple: true,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Докеры',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Короли',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Канарейки',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Принцы',
                      correct: true 
                  }
             ]
 
         },
         {id: 3,
-            question: 'Question text 3',
+            question: 'Какое прозвище футбольного клуба"Арсенал(Лондон)"?',
             multiple: true,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Пушечное мясо',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Пенсионеры',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Фурия Роха',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Канониры',
                      correct: true 
                  }
             ]
 
         },
         {id: 4,
-            question: 'Question text 4',
+            question: 'Какое прозвище футбольного клуба "Милан"?',
             multiple: true,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Аморанте',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Старая гвардия',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Нерадзури',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Россонери',
                      correct: true 
                  }
             ]
 
         },
         {id: 5,
-            question: 'Question text 5',
+            question: 'Какое прозвище футбольного клуба "Боруссия (Дортмунд)"?',
             multiple: true,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Баварцы',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Ириски',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Мухи',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Шмели',
                      correct: true 
                  }
             ]
 
         },
         {id: 6,
-            question: 'Question text 6',
+            question: 'Какое прозвище футбольного клуба "Реал (Мадрид)"?',
             multiple: false,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Ласточки',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Принцы',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Блондины',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Сливочные',
                      correct: true 
                  }
             ]
 
         },
         {id: 7,
-            question: 'Question text 7',
+            question: 'Какое прозвище футбольного клуба "Интер (Милан)"?',
             multiple: false,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Синие птицы',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Россонери',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Баски',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Нерадзури',
                      correct: true 
                  }
             ]
 
         },
         {id: 8,
-            question: 'Question text 8',
+            question: 'Какое прозвище футбольного клуба "Тоттенхэм Хотспур"?',
             multiple: false,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Тигры',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Молотобойцы',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Южане',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Шпоры',
                      correct: true 
                  }
             ]
 
         },
         {id: 9,
-            question: 'Question text 9',
+            question: 'Какое прозвище футбольного клуба "Барселона"?',
             multiple: true,
 
             answers: [
                 {
-                    answer: 'Option A',
+                    answer: 'Испанцы',
                     correct: false
                  },
                  {
-                     answer: 'Option B',
+                     answer: 'Грифы',
                      correct: false
                  },
                  {
-                     answer: 'Option C',
+                     answer: 'Лесные',
                      correct: false
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Каталонцы',
                      correct: true 
                  }
             ]
 
         },
         {id: 10,
-            question: 'Question text 10',
+            question: 'Какое прозвище футбольного клуба "Манчестер Юнайтед"?',
             multiple: false,
 
             answers: [
                 {
-                    answer: 'Option A',
-                    correct: false
+                    answer: 'Красные дьяволы',
+                    correct: true
                  },
                  {
-                     answer: 'Option B',
-                     correct: false
+                     answer: 'Скам',
+                     correct: true
                  },
                  {
-                     answer: 'Option C',
-                     correct: false
+                     answer: 'Мусор',
+                     correct: true
                  },
                  {
-                     answer: 'Option D',
+                     answer: 'Мешки',
                      correct: true 
                  }
             ]
