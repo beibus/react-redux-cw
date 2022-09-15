@@ -4,7 +4,7 @@ import { Button, Modal, Form, Input, Col, Row, Statistic } from 'antd';
 import 'antd/dist/antd.css';
 import './Questions.css'
 const { Countdown } = Statistic;
-const deadline = Date.now() + 1000 * 30; // Moment is also OK
+const deadline = Date.now() + 1000 * 60; // Moment is also OK
 
 const Questions = () => {
   const questions = useSelector((store) => store.questions);
