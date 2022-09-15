@@ -7,7 +7,7 @@ import {
     questions: [
         {id: 1,
             question: 'Какое прозвище футбольного клуба "Ливерпуль"?',
-            multiple: true,
+            multiple: false,
             answers: [
                 {
                    answer: 'Мерсисайдцы',
@@ -26,12 +26,10 @@ import {
                     correct: true 
                 }
             ]
-
         },
         {id: 2,
             question: 'Какое прозвище футбольного клуба"Пари-Сен-Жермен"?',
-            multiple: true,
-
+            multiple: false,
             answers: [
                 {
                     answer: 'Докеры',
@@ -50,12 +48,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 3,
             question: 'Какое прозвище футбольного клуба"Арсенал(Лондон)"?',
-            multiple: true,
-
+            multiple: false,
             answers: [
                 {
                     answer: 'Пушечное мясо',
@@ -74,12 +70,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 4,
             question: 'Какое прозвище футбольного клуба "Милан"?',
-            multiple: true,
-
+            multiple: false,
             answers: [
                 {
                     answer: 'Аморанте',
@@ -98,12 +92,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 5,
             question: 'Какое прозвище футбольного клуба "Боруссия (Дортмунд)"?',
-            multiple: true,
-
+            multiple: false,
             answers: [
                 {
                     answer: 'Баварцы',
@@ -122,12 +114,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 6,
             question: 'Какое прозвище футбольного клуба "Реал (Мадрид)"?',
             multiple: false,
-
             answers: [
                 {
                     answer: 'Ласточки',
@@ -146,12 +136,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 7,
             question: 'Какое прозвище футбольного клуба "Интер (Милан)"?',
             multiple: false,
-
             answers: [
                 {
                     answer: 'Синие птицы',
@@ -170,12 +158,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 8,
             question: 'Какое прозвище футбольного клуба "Тоттенхэм Хотспур"?',
             multiple: false,
-
             answers: [
                 {
                     answer: 'Тигры',
@@ -194,12 +180,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 9,
             question: 'Какое прозвище футбольного клуба "Барселона"?',
-            multiple: true,
-
+            multiple: false,
             answers: [
                 {
                     answer: 'Испанцы',
@@ -218,12 +202,10 @@ import {
                      correct: true 
                  }
             ]
-
         },
         {id: 10,
             question: 'Какое прозвище футбольного клуба "Манчестер Юнайтед"?',
-            multiple: false,
-
+            multiple: true,
             answers: [
                 {
                     answer: 'Красные дьяволы',
@@ -242,7 +224,6 @@ import {
                      correct: true 
                  }
             ]
-
         }
     ]
   }
