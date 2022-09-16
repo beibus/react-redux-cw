@@ -24,7 +24,19 @@ import {
                 {
                     answer: 'Дрозды',
                     correct: true 
+                },
+                {
+                    answer: 'Раки',
+                    correct: true 
+                },
+                {
+                    answer: 'Лебедь',
+                    correct: true 
+                },{
+                    answer: 'Птица',
+                    correct: true 
                 }
+
             ]
         },
         {id: 2,

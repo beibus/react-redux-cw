@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { Button, Modal, Form, Input, Col, Row, Statistic } from 'antd';
 import 'antd/dist/antd.css';
 import './Questions.css'
+import { QuestionItem } from './QuestionItem';
 const { Countdown } = Statistic;
 const deadline = Date.now() + 1000 * 60; // Moment is also OK
 
@@ -142,119 +143,14 @@ const Questions = () => {
             <div className='form-wrapper'>
               <form onSubmit={handleSubmit}>
                 {questions.map((question) => {
-                  return question.multiple ?
-                    <div className='question-wrapper' key={question.id}>
-                      <div className='question-title'>
-                        {question.question}
-                      </div>
-                      <div className='question-options'>
-                        <div className='question-option'>
-                          <input
-                            type='checkbox'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[0].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[0].answer}>
-                            {question.answers[0].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='checkbox'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[1].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[1].answer}>
-                            {question.answers[1].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='checkbox'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[2].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[2].answer}>
-                            {question.answers[2].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='checkbox'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[3].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[3].answer}>
-                            {question.answers[3].answer}
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                    :
-                    <div className='question-wrapper' key={question.id}>
-                      <div className='question-title'>
-                        {question.question}
-                      </div>
-                      <div className='question-options'>
-                        <div className='question-option'>
-                          <input
-                            type='radio'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[0].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[0].answer}>
-                            {question.answers[0].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='radio'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[1].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[1].answer}>
-                            {question.answers[1].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='radio'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[2].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[2].answer}>
-                            {question.answers[2].answer}
-                          </label>
-                        </div>
-                        <div className='question-option'>
-                          <input
-                            type='radio'
-                            id={question.id}
-                            name={question.id}
-                            value={question.answers[3].correct}
-                            onChange={handleChange}
-                          />
-                          <label htmlFor={question.answers[3].answer}>
-                            {question.answers[3].answer}
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                }
+                  return (
+                      <QuestionItem 
+                        question={question} 
+                        handleChange={handleChange}
+                        isMultiple={question.multiple}
+                      />
+                    )
+                  }
                 )}
 
                 <button type='submit' onClick={showModal}>
